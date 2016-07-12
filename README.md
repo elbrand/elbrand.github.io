@@ -1,3 +1,3 @@
 ## marytt.github.io
 
-Personal portfolio website: https://marytt.github.io
+Personal portfolio website: http://marytt.com
