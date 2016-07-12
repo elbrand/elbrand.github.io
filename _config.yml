@@ -1,0 +1,16 @@
+title: MaryTT
+url: https://marytt.github.io
+email: mary.tompkins@gmail.com
+availability: available
+currentlocation: Irvine, CA
+description: >
+  A personal portfolio and blog for web developer and aspiring digital nomad, Mary Tompkins.
+keywords: web developer, mary tompkins, marytt
+
+github: marytt
+linkedin: mary-tompkins-04a7aa22
+stackoverflow: 6538634/mary-tompkins
+
+permalink: /blog/:title
+excerpt_separator: <!--more-->
+markdown: kramdown

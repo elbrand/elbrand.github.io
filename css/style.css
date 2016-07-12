@@ -1,0 +1,612 @@
+/*
+main blue: 247BA0
+orange: F39237
+purple: 8F2D56
+grey: 4A5B6B
+brown: 2A2B2A
+*/
+
+html,
+body {
+  height:100%;
+  font-family: 'Droid Serif', serif;
+  font-size: 18px;
+  line-height: 2em;
+  text-align: center;
+  color: #4A5B6B;
+}
+
+* {
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+img,
+embed,
+object,
+video,
+canvas {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+header,
+.nav,
+footer ul,
+.btn,
+.btn-primary {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 { font-size: 2.6em; margin: 0 auto 1.3em; }
+h2 { font-size: 2.1em; margin: 0 auto 1.5em; color: #F39237;}
+h3 { font-size: 1.4em; color: #4A5B6B;}
+
+a,
+a h2 {
+  color: #247BA0;
+}
+
+a:hover h2,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #2A2B2A;
+}
+
+.btn,
+.btn-primary {
+  border: 0;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  background-color: #247BA0;
+}
+
+.btn-primary:hover {
+  background-color: #2A2B2A;
+}
+
+.large-icon {
+  width: 200px;
+}
+
+.code {
+  fill: #247BA0;
+}
+
+.seo {
+  fill: #8F2D56;  
+}
+
+.more {
+  fill: #2A2B2A;  
+}
+
+.masthead,
+.masthead-mini {
+  background-color: #247BA0;
+}
+
+header a,
+.masthead, 
+.masthead-mini,
+.masthead h1,
+.masthead h3,
+.masthead-mini h1,
+.masthead-mini h3 {
+  color: #2A2B2A;
+}
+
+header a:hover {
+  color: #F39237;
+}
+
+#logo,
+header a.active {
+  color: #fff;
+}
+
+.masthead h1 {
+  font-size: 5em;
+  margin-bottom: 0.6em;
+}
+
+.masthead h3,
+#logo h1 {
+  margin: 0;
+}
+
+#logo h1,
+.masthead h1 {
+  font-family: 'Satisfy', cursive;
+  font-weight: normal;
+}
+
+#logo h1 {
+  -webkit-transition: font-size 0.5s ease-in-out;
+          transition: font-size 0.5s ease-in-out;
+}
+
+header {
+  height: 8em;
+  position: fixed;
+  top: 0;
+  -webkit-transition: top 0.5s ease-in-out, opacity 0.3s ease-in-out, background 0.4s ease-in-out;
+  transition: top 0.5s ease-in-out, opacity 0.3s ease-in-out, background 0.4s ease-in-out;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-up {
+  top: -8em;
+  opacity: 0;
+}
+
+.nav-down {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 2px -1px rgba(97,97,97,0.75);
+  -moz-box-shadow: 0px 2px 2px -1px rgba(97,97,97,0.75);
+  box-shadow: 0px 2px 2px -1px rgba(97,97,97,0.75);
+}
+
+.nav-down a {
+  color: #247BA0;
+}
+
+.nav-down #logo,
+.nav-down a.active {
+  color: #2A2B2A;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -11em;
+    padding-bottom: 11em;
+}
+
+section:not(#top) {
+  padding: 6em 0;
+}
+
+.masthead,
+.masthead-mini {
+  padding: 14em 0 6em !important;
+}
+
+#hi {
+  padding: 12em 0 20em !important;
+}
+
+header,
+footer {
+  padding: 3em 0;
+}
+
+footer {
+  background-color: #efefef;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 11em;
+}
+
+footer .copy {
+  font-size: 0.7em;
+}
+
+.help-row {
+  margin-bottom: 2em;
+}
+
+p,
+.projects .project-info {
+  margin: 2em auto 0;
+}
+
+.projects .project-info h2 {
+  margin: 1em auto 0;
+}
+
+.projects,
+.projects h2 {
+  color: #fff;
+}
+
+.projects .btn-primary {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.projects .btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+#project1 {
+  background: #2F2D2E;
+}
+
+#project2 {
+  background: #18304F;
+}
+
+h1.post-title {
+  font-size: 3em;
+}
+
+.comment-count::before {
+  font-family: 'Material Design Icons';
+  content: '\F188';
+  font-size: 1.4em;
+  position: relative;
+  bottom: -0.14em;
+}
+
+#map {
+  position: absolute;
+  z-index: 0;
+  margin-bottom: -32em;
+  padding-bottom: 32em;
+  top: 0;
+  width: 100%;
+}
+
+#get-in-touch {
+  position: relative;
+  z-index: 0;
+  height: 32em;
+}
+
+#get-in-touch .container {
+  pointer-events: none;
+}
+
+#get-in-touch h2 {
+  margin-bottom: 6em;
+}
+
+#get-in-touch a {
+  pointer-events: visible;
+}
+
+.section-break {
+  width: 50px;
+  fill: #ededed;
+}
+
+#scrolltop {
+  position: fixed;
+  opacity: 0;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#scrolltop.up {
+  opacity: 0.3;
+}
+
+#scrolltop svg {
+  fill: #999;
+  width: 100px;
+}
+
+.header-nav li {
+  padding-left: 2em;
+  -webkit-transition: padding-left 0.3s ease-in-out;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+.footer-nav li {
+  padding-right: 2em;
+  -webkit-transition: padding-right 0.3s ease-in-out;
+  transition: padding-right 0.3s ease-in-out;
+}
+
+.footer-social li {
+  padding-left: 1em;
+  -webkit-transition: padding-left 0.3s ease-in-out;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 766px) {
+  #post h1 {
+    font-size: 2.2em;
+  }
+  #logo h1 {
+    font-size: 24px;
+  }
+  footer .footer-social,
+  #i-can-help .row > div {
+    text-align: center;
+  }
+  .header-nav li {
+    padding-left: 0.4em;
+  }
+  .footer-social li {
+    padding-left: 0.2em;
+  }
+  .footer-nav li {
+    padding-right: 0.4em;
+  }
+}
+
+@media screen and (min-width: 766px) and (max-width: 1198px) {
+  section:not(#top) div.container,
+  footer div.container {
+    max-width: 750px;
+  }
+}
+
+
+/* masthead animation ---------------------------------*/
+
+#masthead {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#masthead {
+  height: 28.5em;
+}
+
+#hi #masthead {
+  height: 42em;
+}
+
+#blog-post #masthead {
+  height: 20em;
+}
+
+
+#masthead img {
+  position: absolute;
+}
+
+#phone,
+#paper,
+#glasses,
+#suitcase,
+#pencil,
+#camera,
+#passport,
+#laptop,
+#coffee {
+  -webkit-transition: top 0.5s ease-in-out, left 0.5s ease-in-out, right 0.5s ease-in-out;
+          transition: top 0.5s ease-in-out, left 0.5s ease-in-out, right 0.5s ease-in-out;
+
+}
+
+
+
+/* starting positions: */
+
+  #paper    { top: 390px; left: -300px; }
+  #pencil   { top: 430px; left: -100px; }
+  #glasses  { top: 120px; right: -200px; }
+  #phone    { top: 400px; left: -250px; }
+  #passport { top: 600px; right: -200px; }
+  #camera   { top: 200px; left: -200px; }
+  #suitcase { top: 400px; left: -600px; }
+
+@media screen and (max-width: 500px) {
+  #laptop   { top: 100px; left: 33%; }
+  #coffee   { top: 100px; left: 20%; }
+  #hi       { padding-bottom: 6em !important; }
+}
+
+@media screen and (min-width: 498px) and (max-width: 606px) {
+  #laptop   { top: 100px; left: 50%; }
+  #coffee   { top: 100px; left: 20%; }
+  #paper    { top: 390px; left: 8%; }
+  #pencil   { top: 430px; left: 45%; }
+  #hi       { padding-bottom: 12em !important; }
+}
+
+@media screen and (min-width: 604px) and (max-width: 768px) {
+  #laptop   { top: 112px; left: 50%; }
+  #coffee   { top: 100px; left: 18%; }
+  #paper    { top: 350px; left: 5%; }
+  #pencil   { top: 400px; left: 40%; }
+  #glasses  { top: 120px; right: 30%; }
+  #hi       { padding-bottom: 14em !important; }
+  #hi #paper  { top: 400px; left: 8%; }
+  #hi #pencil { top: 430px; left: 43%; }
+  #blog-post #paper {top: 260px;}
+}
+
+@media screen and (min-width: 766px) and (max-width: 900px) {
+  #laptop   { top: 120px; left: 50%; right: 0; }
+  #coffee   { top: 150px; left: 5%; }
+  #paper    { top: 260px; left: 3%; }
+  #pencil   { top: 300px; left: 30%; }
+  #glasses  { top: 120px; right: 30%; }
+  #phone    { top: 400px; left: 43%; }
+  #hi       { padding-bottom: 16em !important; }
+  #hi #paper  { top: 400px; left: 3%; }
+  #hi #pencil { top: 430px; left: 30%; }
+  #hi #phone  { top: 500px; left: 50%; }
+}
+
+@media screen and (min-width: 898px) and (max-width: 990px) {
+  #laptop   { top: 130px; right: -10px; }
+  #coffee   { top: 150px; left: 8%; }
+  #paper    { top: 260px; left: 5%; }
+  #pencil   { top: 300px; left: 30%; }
+  #glasses  { top: 120px; right: 40%; }
+  #phone    { top: 380px; left: 35%; }
+  #hi #paper  { top: 450px; left: 8%; }
+  #hi #pencil { top: 480px; left: 30%; }
+  #hi #phone  { top: 460px; left: 42%; }
+  #hi #passport { top: 600px; right: 3%; }
+}
+
+
+@media screen and (min-width: 988px) and (max-width:1140px) {
+  #laptop   { top: 130px; right: -10px; }
+  #coffee   { top: 140px; left: 11%; }
+  #paper    { top: 260px; left: 3%; }
+  #pencil   { top: 280px; left: 22%; }
+  #glasses  { top: 120px; right: 40%; }
+  #phone    { top: 370px; left: 38%; }
+  #camera   { top: 190px; left: 25%; }
+  #hi #paper  { top: 500px; left: 40%; }
+  #hi #pencil { top: 520px; left: 60%; }
+  #hi #camera { top: 280px; left: 5%; }
+  #hi #phone  { top: 440px; left: 35%; }
+  #hi #passport { top: 600px; right: 3%; }
+  #hi #suitcase { top: 400px; left: -200px; }
+}
+
+@media screen and (min-width: 1138px) and (max-width:1300px) {
+  #laptop   { top: 130px; right: -10px; }
+  #coffee   { top: 160px; left: 15%; }
+  #paper    { top: 260px; left: 4%; }
+  #pencil   { top: 280px; left: 20%; }
+  #glasses  { top: 120px; right: 38%; }
+  #phone    { top: 370px; left: 40%; }
+  #camera   { top: 210px; left: 30%; }
+  #hi #paper  { top: 500px; left: 40%; }
+  #hi #pencil { top: 520px; left: 60%; }
+  #hi #camera { top: 250px; left: 5%; }
+  #hi #phone  { top: 440px; left: 35%; }
+  #hi #passport { top: 600px; right: 3%; }
+  #hi #suitcase { top: 360px; left: -150px; }
+}
+
+
+@media screen and (min-width: 1298px) and (max-width:1530px) {
+  #laptop   { top: 140px; right: 2%; }
+  #coffee   { top: 130px; left: 20%; }
+  #paper    { top: 220px; left: 25%; }
+  #pencil   { top: 200px; left: 38%; }
+  #glasses  { top: 120px; right: 38%; }
+  #phone    { top:380px; left: 50%; }
+  #suitcase { top: 360px; left: -50px; }
+  #camera   { top: 220px; left: 5%; }
+  #hi #paper  { top: 500px; left: 45%; }
+  #hi #pencil { top: 520px; left: 60%; }
+  #hi #phone  { top: 440px; left: 35%; }
+  #hi #passport { top: 600px; right: 3%; }
+}
+
+@media screen and (min-width: 1528px) and (max-width:1740px) {
+  #laptop   { top: 140px; right: 5%; }
+  #coffee   { top: 80px; left: 50%; }
+  #paper    { top: 160px; left: 26%; }
+  #pencil   { top: 170px; left: 38%; }
+  #glasses  { top: 140px; right: 30%; }
+  #phone    { top: 380px; left: 45%; }
+  #passport { top: 400px; right: 38%; }
+  #suitcase { top: 300px; left: 1%; }
+  #camera   { top: 150px; left: 10%; }
+  #hi #coffee { top: 150px; left: 25%; }
+  #hi #paper  { top: 500px; left: 55%; }
+  #hi #pencil { top: 520px; left: 68%; }
+  #hi #phone  { top: 440px; left: 40%; }
+  #hi #passport { top: 600px; right: 3%; }
+}
+
+@media screen and (min-width: 1738px) {
+  #laptop   { top: 120px; right: 8%; }
+  #coffee   { top: 120px; left: 55%; }
+  #paper    { top: 160px; left: 28%; }
+  #pencil   { top: 170px; left: 38%; }
+  #glasses  { top: 140px; right: 30%; }
+  #phone    { top: 380px; left: 43%; }
+  #passport { top: 400px; right: 35%; }
+  #suitcase { top: 260px; left: 8%; }
+  #camera   { top: 150px; left: 15%; }
+  #hi #coffee { top: 160px; left: 28%; }
+  #hi #paper  { top: 500px; left: 55%; }
+  #hi #pencil { top: 520px; left: 65%; }
+  #hi #phone  { top: 480px; left: 41%; }
+  #hi #passport { top: 600px; right: 10%; }
+}
+
+
+
+
+/* material design icons ---------------------------------*/
+.mdi::before {
+    font-size: 24px;
+    line-height: 14px;
+}
+.btn .mdi::before {
+    position: relative;
+    top: 4px;
+}
+.btn-xs .mdi::before {
+    font-size: 18px;
+    top: 3px;
+}
+.btn-sm .mdi::before {
+    font-size: 18px;
+    top: 3px;
+}
+.dropdown-menu .mdi {
+    width: 18px;
+}
+.dropdown-menu .mdi::before {
+    position: relative;
+    top: 4px;
+    left: -8px;
+}
+.nav .mdi::before {
+    position: relative;
+    top: 4px;
+}
+.navbar .navbar-toggle .mdi::before {
+    position: relative;
+    top: 4px;
+    color: #FFF;
+}
+.breadcrumb .mdi::before {
+    position: relative;
+    top: 4px;
+}
+.breadcrumb a:hover {
+    text-decoration: none;
+}
+.breadcrumb a:hover span {
+    text-decoration: underline;
+}
+.alert .mdi::before {
+    position: relative;
+    top: 4px;
+    margin-right: 2px;
+}
+.input-group-addon .mdi::before {
+    position: relative;
+    top: 3px;
+}
+.navbar-brand .mdi::before {
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+.list-group-item .mdi::before {
+    position: relative;
+    top: 3px;
+    left: -3px
+}
+
+/* blazy.min.js ---------------------------------*/
+
+.b-lazy {
+    -webkit-transition: opacity 500ms ease-in-out;
+       -moz-transition: opacity 500ms ease-in-out;
+         -o-transition: opacity 500ms ease-in-out;
+            transition: opacity 500ms ease-in-out;
+             max-width: 100%;
+               opacity: 0;
+}
+.b-lazy.b-loaded {
+               opacity: 1;
+}

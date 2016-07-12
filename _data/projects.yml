@@ -1,0 +1,7 @@
+- name: Temerity
+  tags: PHP / MySQL / Bootstrap
+  description: >
+    My World of Warcraft guild needed an updated site and asked for my help. 
+    The site uses a simple custom PHP/MySQL CMS and a basic Bootstrap front-end. 
+    Roster and achievement information is imported using the WoW API.
+  link: http://temerityofwindrunner.com
