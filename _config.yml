@@ -1,14 +1,14 @@
-title: MaryTT
-url: http://marytt.com
-email: mary.tompkins@gmail.com
+title: EBrand
+url: http://emmalanebrand.com
+email: emmalanebrand@gmail.com
 availability: available
 currentlocation: Irvine, CA
 description: The portfolio and blog for web developer and aspiring digital nomad, Mary Tompkins.
-keywords: mary, tompkins, mary tompkins, marytt, web developer, seo, freelance, developer
+keywords: emma, brand, elbrand, emma lane brand, emma lane, web developer, seo, freelance, developer
 
-github: marytt
-linkedin: mary-tompkins
-stackoverflow: 6538634/mary-tompkins
+github: elbrand
+linkedin: emma-brand
+stackoverflow: 6538634/emma-brand
 
 permalink: /blog/:title
 excerpt_separator: <!--more-->

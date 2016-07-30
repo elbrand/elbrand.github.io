@@ -1,3 +1,3 @@
-## marytt.github.io
+## elbrand.github.io
 
-Personal portfolio website: http://marytt.com
+Personal portfolio website: http://emmalanebrand.com
