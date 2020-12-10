@@ -1,3 +1,3 @@
 ## elbrand.github.io
 
-Personal portfolio website: http://emmalanebrand.com
+Old web design personal site, no longer relevant.
